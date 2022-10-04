@@ -9,6 +9,7 @@ import logo from '../assets/logowhite.png';
 
 const Login = () => {
   const navigate = useNavigate();
+  //谷歌云注册服务
   //const responseGoogle = (response) => {
   //  localStorage.setItem('user', JSON.stringify(response.profileObj));
   //  const { name, googleId, imageUrl } = response.profileObj;
@@ -37,7 +38,7 @@ const Login = () => {
         />
 
         <div className="absolute flex flex-col justify-center items-center top-0 right-0 left-0 bottom-0    ">
-          <div className="p-5">
+          <div className="p-">
             <img src={logo} alt="some file" width="200px" />
           </div>
 
